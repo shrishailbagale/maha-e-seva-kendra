@@ -1,0 +1,87 @@
+/* src/components/Documents.css */
+.documents-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;    
+  }
+  
+  h1 {
+    color: #ff5722; /* Revenue Department color */
+    border-bottom: 2px solid #ff5722;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .documents-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding: 20px;
+  }
+  
+  .document-card {
+    flex: 0 1 calc(25% - 20px);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .document-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .document-icon img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+  
+  .document-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  /* Highlighted card style */
+.document-card.highlight {
+    border: 2px solid #ff5722; /* Orange border for highlight */
+    background-color: #fff9e6; /* Light orange background */
+    box-shadow: 0 4px 8px rgba(255, 87, 34, 0.3); /* Slightly more pronounced shadow */
+  }
+
+  .search-bar {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+    padding: 10px;
+    align-items: end;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .document-card {
+      flex: 0 1 calc(33.33% - 20px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .document-card {
+      flex: 0 1 calc(100% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .document-card {
+      flex: 0 1 calc(100% - 20px);
+    }
+  }
+  
