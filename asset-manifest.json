@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/maha-e-seva-kendra/static/css/main.8b66a56f.css",
-    "main.js": "/maha-e-seva-kendra/static/js/main.ef770c0e.js",
+    "main.js": "/maha-e-seva-kendra/static/js/main.9cdd0dd4.js",
     "static/js/453.e407321e.chunk.js": "/maha-e-seva-kendra/static/js/453.e407321e.chunk.js",
     "index.html": "/maha-e-seva-kendra/index.html",
     "main.8b66a56f.css.map": "/maha-e-seva-kendra/static/css/main.8b66a56f.css.map",
-    "main.ef770c0e.js.map": "/maha-e-seva-kendra/static/js/main.ef770c0e.js.map",
+    "main.9cdd0dd4.js.map": "/maha-e-seva-kendra/static/js/main.9cdd0dd4.js.map",
     "453.e407321e.chunk.js.map": "/maha-e-seva-kendra/static/js/453.e407321e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b66a56f.css",
-    "static/js/main.ef770c0e.js"
+    "static/js/main.9cdd0dd4.js"
   ]
 }
